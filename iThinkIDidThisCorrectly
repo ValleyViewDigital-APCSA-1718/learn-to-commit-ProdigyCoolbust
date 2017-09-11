@@ -1,0 +1,245 @@
+
+public class Test
+{
+    public static void main (String[] args)
+    {
+        System.out.println ("An Emergency Broadcast");
+        
+    }
+    
+    
+}
+
+/Test.java:5: error: ')' expected
+        System.out.println (An Emergency Broadcast");
+                              ^
+/Test.java:5: error: unclosed string literal
+        System.out.println (An Emergency Broadcast");
+                                                  ^
+/Test.java:5: error: not a statement
+        System.out.println (An Emergency Broadcast");
+                                         ^
+3 errors
+
+
+/Test.java:5: error: unclosed string literal
+        System.out.println ("An Emergency Broadcast);
+                            ^
+/Test.java:5: error: ';' expected
+        System.out.println ("An Emergency Broadcast);
+                                                     ^
+/Test.java:10: error: reached end of file while parsing
+}
+ ^
+3 errors
+
+Error: Main method not found in class Test, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+
+/Test.java:5: error: cannot find symbol
+        System.out.bogus ("An Emergency Broadcast");
+                  ^
+  symbol:   method bogus(String)
+  location: variable out of type PrintStream
+1 error
+
+/Test.java:5: error: ';' expected
+        System.out.println ("An Emergency Broadcast")
+                                                     ^
+1 error
+
+/Test.java:7: error: reached end of file while parsing
+    }
+     ^
+1 error
+
+
+
+
+public class Facts {
+    //
+    // prints various facts.
+    //
+    public static void main (String[] args)
+    {
+        //strings can be concatenated into one long string
+        System.out.println  ("We present the following facts for your " + "extracurricular edification:");
+        
+        System.out.println();
+        
+        //A string can contain numeric digits
+        System.out.println ("Letters in the HAwaiian alphabet: 12");
+        
+        //A numeric value can be cocatenated to a string
+        System.out.println ("Dialing code for Antarctica:" +672);
+        
+        System.out.println ("Year in which Leonardo da Vinci invented" + "the parachute: "
+        + 1515);
+        
+        System.out.println ("Speed of Ketchup: " +40 + "km per year"); 
+        
+    }
+    }
+
+
+
+
+/**
+ * Sidney Robinson
+ * 1.3 
+ * 8/16/17
+ **/
+ public class AllAboutMe
+ {
+     public static void main(String[] args)
+     {
+         System.out.println ("Name: Sidney Robinson");
+         
+         System.out.println ("Date of Birth: 1/16/2000");
+         
+         System.out.println ("Hobbies: Snowboarding,Meme Collecting");
+         
+         System.out.println ("Favorite Book: THe Hitchhiker's Guide TO The Galaxy");
+         
+         System.out.println ("Favorite Movie: Inception");
+          
+         
+          
+         
+
+
+         
+     }//End method main
+     
+ }// ENd of Public class AllABoutMe
+
+
+
+8/17
+
+/**
+ * Sidney RObinsn
+ * 8/16/17
+ * Escape Sequence Practice
+ * **/
+ public class Roses
+ {
+     //Prints a poem (of sorts) on multiple lines
+     public static void main (String[] args)
+     {
+         System.out.println ("Roses are red,\n\tViolets are blue,\n"+"Sugar is sweet,\n\tBut I have \"Commitment issues\",\n\t" 
+         +"So I'd rather just be friends\n\tAt this point in our"+"relationship.");
+         
+     }//End of main
+     
+ }//End of class Roses
+
+
+
+/**
+ * Sidney Robinson
+ * 1.4
+ * 8/17/17
+ **/
+public class AQuoteToBeRemembered
+{
+    public static void main (String[] args)
+    {
+        System.out.println (" Matt Groening once said: \"Love is a snowmobile racing across the tundra \n and then suddenly "
+         + "it flips over, pinning you underneath\"");
+        
+        
+    }//End of public static void main
+    
+} //End of public class
+/**
+ * Sidney Robinson
+ * 1.5 
+ * 8/17/17
+ **/
+ public class AllAboutMe
+ {
+     public static void main(String[] args)
+     {
+         System.out.println ("Name:\t Sidney \"Coolbust\" Robinson");
+         
+         System.out.println ("Date of Birth:\t 01\\16\\2000");
+         
+         System.out.println ("Hobbies:\t Snowboarding,Meme Collecting");
+         
+         System.out.println ("Favorite Book:\t \'THe Hitchhiker's Guide TO The Galaxy\'");
+         
+         System.out.println ("Favorite Movie:\t \"Inception\"");
+          
+         
+          
+         
+         
+     }//End method main
+     
+ }// ENd of Public class AllABoutMe
+
+
+
+
+//Sidney Robinson
+// 1.3 EC
+// 8/18/17
+
+
+
+public class Initials
+{
+    public static void main(String args[])
+    {
+        System.out.println("SSSSSSSSSSSS"   +       "\t RRRRRRRRRRRRR");
+        System.out.println("SSSSS"          +   "\t\t RRRRRRRRRRRRR");
+        System.out.println("SSSSS"          +   "\t\t RRRRRR");
+        System.out.println("SSSSS"          +   "\t\t RRRRRR");
+        System.out.println("SSSSSSSSSSS"    +     "\t RRRRRR");
+        System.out.println("      sssss"    +     "\t RRRRRR");
+        System.out.println("      sssss"    +     "\t RRRRRR");   
+        System.out.println("      sssss"    +     "\t RRRRRR");      
+        System.out.println("      sssss"     +    "\t RRRRRR");       
+        System.out.println("      sssss"    +     "\t RRRRRR");      
+        System.out.println("sssssssssss"    +     "\t RRRRRR");      
+        
+        
+
+        
+     
+    
+        
+    }//End of S.V main
+    
+} //End of public class Initials
+
+
+
+public class APoemForMe
+{
+    public static void main (String args[])
+    {
+        System.out.println ("Here you go" +
+"\nlight low and long" +
+"\nin the fields" +
+"\nat sunset and sunrise" +
+"\nEverything twice" +
+"\na doubled existence" +
+"\ntwo nows" +
+"\ntwo thens" +
+"\ntwo names" +
+"\nyours and the other one" +
+"\nalso yours" +
+"\nfolded into a paper boat" +
+"\nthe points of which" +
+"\nconstellate stars" );
+        
+    }//End of public static void main
+    
+}//End of public class APoemFOrME
+
+
+
+
